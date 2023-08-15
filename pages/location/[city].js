@@ -19,6 +19,7 @@ export async function getServerSideProps(context) {
   console.log(city);
   console.log(cityId);
   console.log(filteredCity);
+
   const response = await fetch(
     `https://api.openweathermap.org/data/2.5/onecall?lat=${filteredCity[0].coord.lat}&lon=${filteredCity[0].coord.lon}&appid=${process.env.NEXT_API_KEY}&units=imperial`
   );
