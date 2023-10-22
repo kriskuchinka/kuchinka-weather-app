@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -24,4 +24,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+body {
+  background-color: #42118a;
+}
+
+h1 {
+  color: #118a42;
+}
+
+input {
+  background-color: #8a4211;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
